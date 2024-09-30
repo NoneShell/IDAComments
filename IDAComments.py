@@ -154,7 +154,7 @@ class CommentViewer(ida_kernwin.Choose):
                 "Address": hex(key[0] + self.usr_cmt.imagebase),
                 "Timestamp": value["timestamp"],
                 "Tag": value["tag"],
-                "Comments": value["comment"],
+                "Comments": value["comment"].split('\n')[0],
                 "Type": key[1]
             }
             self.items.append([row_data[col] for col in self.column_map])
