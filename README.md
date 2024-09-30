@@ -22,6 +22,17 @@ There are three ways to open the comment window:
 2. Use the shortcut (Ctrl-Shift-C)
 3. Press `Ctrl-!`, then choose "Comments"
 
+Supports adding comments in the following format, and the comments will be automatically parsed into:
+```
+#tag comment
+```
+The comments will be automatically parsed and displayed according to the following fields:
+- Address: The address where the comment was added
+- Timestamp: The timestamp when the comment was first added
+- Tag: The comment’s tag
+- Comment: The actual content of the comment
+- Type: The type of the comment
+
 ## Features
 
 - Provides a comment window, displaying user-added comments, including comments in assembly code and pseudocode.
