@@ -9,7 +9,7 @@ This plugin is implemented based on hooking, meaning it can only capture and sav
 
 <b>Any user comments added prior to the installation of the plugin will not be captured.</b>
 
-The plugin is written in Python 3, and it's suitable for IDA 7.x versions that use Python 3. For IDA 8.x, please test it yourself.
+The plugin is written in Python 3, and it's suitable for IDA 7.x and IDA 8.x versions that use Python 3. For IDA 9.x, please test it yourself.
 
 ## Installation
 
