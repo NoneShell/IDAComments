@@ -1,6 +1,8 @@
 # IDAComments
 an IDA plugin helps you to manage your IDA Comments. This repository is forked from [UserComment](https://github.com/JayRE114514/UserComment), and I made a little improvement to make it adapted to my workflow
 
+![Plugin Preview](images/image.png)
+
 ## Note
 
 This plugin is implemented based on hooking, meaning it can only capture and save the user-added comments after the plugin is installed.
